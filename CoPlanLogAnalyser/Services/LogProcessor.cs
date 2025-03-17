@@ -54,6 +54,7 @@
             int totalFailures = failedQueryCount + failedCommandCount;
 
             // Displaying results
+            Console.WriteLine();
             Console.WriteLine("----- Log File Statistics -----");
             // Console.WriteLine($"Total Tasks Processed: {totalTasks}");
             // Console.WriteLine();
