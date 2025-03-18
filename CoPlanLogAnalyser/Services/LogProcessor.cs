@@ -37,17 +37,17 @@
                             totalCommandTime += log.TimeTaken;
                         }
                     }
-                    else
-                    {
-                        if (log.IsQuery)
-                        {
-                            failedQueryCount++;
-                        }
-                        else if (log.IsCommand)
-                        {
-                            failedCommandCount++;
-                        }
-                    }
+                    // else
+                    // {
+                    //     if (log.IsQuery)
+                    //     {
+                    //         failedQueryCount++;
+                    //     }
+                    //     else if (log.IsCommand)
+                    //     {
+                    //         failedCommandCount++;
+                    //     }
+                    // }
                 }
             }
 
