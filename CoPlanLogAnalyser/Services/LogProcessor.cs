@@ -13,8 +13,8 @@
             int totalTasks = 0;
             int successfulQueryCount = 0;
             int successfulCommandCount = 0;
-            int failedQueryCount = 0;
-            int failedCommandCount = 0;
+            // int failedQueryCount = 0;
+            // int failedCommandCount = 0;
             long totalQueryTime = 0;
             long totalCommandTime = 0;
 
@@ -51,7 +51,7 @@
                 }
             }
 
-            int totalFailures = failedQueryCount + failedCommandCount;
+            //int totalFailures = failedQueryCount + failedCommandCount;
 
             // Displaying results
             Console.WriteLine();
